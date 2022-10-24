@@ -92,11 +92,13 @@ nav{
     display: flex;
     justify-content: space-between;
     font-weight: 600;
+    flex-wrap: wrap;
 
 }
 nav ul{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 nav li{
     list-style: none;
@@ -429,8 +431,7 @@ footer::after{
     position: absolute;
     top: 40px;
     right: 0;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
+    border-radius: 20px 0 0 20px;
 }
 /*******************************************/
 
