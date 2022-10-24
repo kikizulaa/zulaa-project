@@ -122,9 +122,11 @@ nav a{
 header{
     background-color:#dceaf5 ;
 }
-.header-image img{ 
+.header-image { 
+    align-self: flex-end;
+}
+.header-image img{
     vertical-align: bottom;
-    max-width: 100%;
 }
 .headertext{
     align-self: center;
